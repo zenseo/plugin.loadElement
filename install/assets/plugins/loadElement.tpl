@@ -8,12 +8,12 @@
  * @category   	plugin
  * @version     0.2
  * @internal    @events         OnWebPageInit,OnManagerPageInit,OnPageNotFound
- * @internal    @properties     &extChunk=Расширения чанков (<i>через запятую</i>);input;txt,html &extSnippet=Расширения сниппетов (<i>через запятую</i>);input;php &pathElement=Папка с элементами (<i>относительно корня сайта</i>);input;assets/element/
+ * @internal    @properties     &extChunk=Расширения чанков (<i>через запятую</i>);input;txt,html &extSnippet=Расширения сниппетов (<i>через запятую</i>);input;php &pathElement=Папка с элементами (<i>относительно корня сайта</i>);input;assets/elements/
  */
  
 if (!defined('MODX_BASE_PATH')) { die('HACK???'); }
 class LoadElement{
-    public static $pathElement = 'assets/element/';
+    public static $pathElement = 'assets/elements/';
  
     /**
      * Валидация типа элементов
