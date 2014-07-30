@@ -1,6 +1,3 @@
-//<?php
-if (!defined('MODX_BASE_PATH')) { die('HACK???'); }
- 
 /**
  * LoadElement
  *
@@ -12,6 +9,8 @@ if (!defined('MODX_BASE_PATH')) { die('HACK???'); }
  * @internal    @events         OnWebPageInit, OnManagerPageInit, OnPageNotFound
  * @internal    @properties     &extChunk=Расширения чанков (<i>через запятую</i>);input;txt,html &extSnippet=Расширения сниппетов (<i>через запятую</i>);input;php &pathElement=Папка с элементами (<i>относительно корня сайта</i>);input;assets/element/
  */
+ 
+if (!defined('MODX_BASE_PATH')) { die('HACK???'); }
 class LoadElement{
     public static $pathElement = 'assets/element/';
  
